@@ -15,6 +15,7 @@
 		252FA2352056C6C100A9941D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 252FA2342056C6C100A9941D /* main.m */; };
 		252FA23F2056C6C100A9941D /* DrawBoardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252FA23E2056C6C100A9941D /* DrawBoardTests.m */; };
 		252FA24A2056C6C100A9941D /* DrawBoardUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 252FA2492056C6C100A9941D /* DrawBoardUITests.m */; };
+		252FA2592056C6DD00A9941D /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 252FA2582056C6DD00A9941D /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		252FA2452056C6C100A9941D /* DrawBoardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawBoardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		252FA2492056C6C100A9941D /* DrawBoardUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawBoardUITests.m; sourceTree = "<group>"; };
 		252FA24B2056C6C100A9941D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		252FA2572056C6DD00A9941D /* DrawView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		252FA2582056C6DD00A9941D /* DrawView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				252FA2302056C6C100A9941D /* LaunchScreen.storyboard */,
 				252FA2332056C6C100A9941D /* Info.plist */,
 				252FA2342056C6C100A9941D /* main.m */,
+				252FA2572056C6DD00A9941D /* DrawView.h */,
+				252FA2582056C6DD00A9941D /* DrawView.m */,
 			);
 			path = DrawBoard;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			files = (
 				252FA22A2056C6C100A9941D /* ViewController.m in Sources */,
 				252FA2352056C6C100A9941D /* main.m in Sources */,
+				252FA2592056C6DD00A9941D /* DrawView.m in Sources */,
 				252FA2272056C6C100A9941D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
